@@ -1,0 +1,132 @@
+.body {font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategrey;
+}
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.main{
+    position: relative;
+    top: 100px;
+    width: 50em;
+    height: 25em;
+    border: 3px solid #0f9d58;
+    background: #666666;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.main h2{
+    color: #e8f0fe;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+#form{
+    max-width:500px;
+    margin:auto;
+}
+.icon {
+    padding: 10px;
+    background: #c5221f;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background-color: #2c2c2d;
+    border:2px solid #0f9d58;
+}
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+.button {
+    float: right;
+    background-color: #0f9d58;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+.contact{
+    display: flex;
+    background-color: steelblue;
+    margin: 5% 20% 20%;
+    align-content: center;
+
+}
+.input-container1 {
+    width: 30%;
+    background-color: #c5221f;
+    margin-right: 0;
+    display: inline-block;
+    text-align: center;
+}
+.fa fa-envelope icon {
+    padding: 8px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-right: 20px;
+}
+#case1{
+    margin-top: 5px;
+    margin-left: 8%;
+    margin-right: 30%;
+    width: 30%;
+    height: 30%;
+
+}
+input{
+     padding: 8px;
+     font-size: 15px;
+     border-radius: 4px;
+    width: 150%;
+
+ }
+label{
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+}
+input[type="submit"] {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: darkcyan;
+    background-color: darkslateblue;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+    margin-left: 40%;
+    width: 100px;
+}
+button:hover{
+    background-color: #999999;
+}
+button:active{
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

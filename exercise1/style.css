@@ -108,7 +108,11 @@ span1{
 }
 span3{
     color: orange;
+<<<<<<< HEAD
     font-family: italis, serif;
+=======
+    font-family: italic, serif;
+>>>>>>> 9cabdbc (second commit)
 }
 section #showcase1{
     display: inline-block;

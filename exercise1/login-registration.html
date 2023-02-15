@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DIT Web Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="sub">
+      <div id="sub1">
+        <h1>DIT</h1>
+      </div>
+      <div id="sub2">
+        <img src="images/cable.jpg" alt="images" width="950" height="195">
+      </div>
+
+    </div><br>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About DIT</a></li>
+        <li><a href="#">Admission</a></li>
+        <li><a href="#">programs</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="login-registration.html">Login registration</a></li>
+      </ul>
+    </nav><br>
+
+  </div>
+</header>
+<section class="container">
+  <div class="next">
+    <div id="showcase">
+      <h2>Login</h2>
+      <form>
+        <label for="email">Email </label>
+        <input type="email" name="email" id="email"><br>
+        <label for="password"> Password</label>
+        <input type="password" name="password" id="password" minlength="8"><br><br>
+        <input type="submit" value="Login">
+      </form><br>
+      <a href="password-recovery.html"><span3>Password forgotten</span3></a>  <br>
+      login with<br>
+      facebook| <span>Twitter|</span> <span1>Google</span1>
+    </div>
+    <div id="showcase1">
+      <h2>Registration</h2>
+      <form action="registration.html">
+        <label for="email">Email </label>
+        <input type="email" name="email" id="email"><br>
+        <label for="password"> Password</label>
+        <input type="password" name="password" id="password" minlength="8"><br>
+        <label for="repeat-password"> Repeat Password</label>
+        <input type="password" name="password" id="repeat-password" minlength="8"><br>
+        <label for="phone"> Mobile number</label>
+        <input type="tel" name="phone" id="phone" ><br>
+        <label for="ash"> Activity:</label>
+        <select name="dropdown" id="ash">
+          <option value="" selected></option>
+          <option value="student ">student</option>
+          <option value="staff ">staff</option>
+          <option value="parent">parent</option>
+        </select><br>
+        <label for="captcha">CAPTCHA</label>
+        <input type="checkbox" name="captcha" id="captcha"><br><br>
+        <input type="submit" value="Register">
+      </form><br>
+      login with facebook <span>Twitter</span> <span1>Google</span1>
+    </div>
+  </div>
+
+</section>
+<footer>
+  Copyright &copy; 2023
+</footer>
+
+</body>
+</html>

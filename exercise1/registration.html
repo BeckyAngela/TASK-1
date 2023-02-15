@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DIT Web Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="sub">
+            <div id="sub1">
+                <h1>DIT</h1>
+            </div>
+            <div id="sub2">
+                <img src="images/cable.jpg" alt="images" width="950" height="195">
+            </div>
+
+        </div><br>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Admission status</a></li>
+                <li><a href="#">Marks</a></li>
+                <li><a href="#">Welcome (activity)</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav><br>
+
+    </div>
+</header>
+<section class="container">
+    <div id="show">
+        <h1>Registration form</h1>
+        <form action="registration-detail.html" method="GET">
+            <label for="name">Full Name </label>
+            <input type="text" name="name" id="name"><br>
+            <label for="date"> Date of birth</label>
+            <input type="date" name="date" id="date"><br>
+            <label for="place"> Place of birth</label>
+            <input type="text" name="place" id="place"><br>
+            <label for="nationality"> Nationality</label>
+            <input type="text" name="nationality" id="nationality" ><br>
+            <label for="birth"> Birth certificate</label>
+            <input type="file" name="birth" id="birth" ><br>
+            <label for="nation"> National id</label>
+            <input type="file" name="nation" id="nation" ><br>
+            <label for="drop"> Desire program</label>
+            <select name="dropdown" id="drop">
+                <option value="" selected></option>
+            </select><br>
+            <label for="drop1"> Entry level</label>
+            <select name="dropdown" id="drop1">
+                <option value="" selected></option>
+            </select><br>
+            <label for="diploma"> Diploma</label>
+            <input type="file" name="diploma" id="diploma" ><br>
+            <label for="captcha">Captcha</label>
+            <input type="checkbox" name="captcha" id="captcha"><br><br>
+            <input type="submit" value="send" id="send">
+        </form><br>
+    </div><br>
+</section>
+<footer>
+    Copyright &copy; 2023
+</footer>
+
+</body>
+</html>

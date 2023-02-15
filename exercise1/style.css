@@ -1,0 +1,316 @@
+body{
+    font-family: Arial, Helvetica, SansSerif, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0;
+    margin:0;
+    background-color: black;
+}
+.container{
+    background-color: steelblue;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.sub{
+    display: flex;
+
+}
+header{
+    padding-top:30px;
+    min-height: 70px;
+
+}
+header a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+header ul{
+    margin: auto;
+    text-align: center;
+
+}
+header li{
+
+    display: inline;
+    padding: 10px 30px 10px 40px;
+    background-color: white;
+
+
+}
+header #sub1{
+display: inline-block;
+
+
+}
+header #sub2{
+display: inline-block;
+    border:1px solid;
+    margin-top: 5px;
+}
+header a:hover{
+    color: #cccccccc;
+    font-weight: bold;
+}
+#sub1 h1{
+
+margin-right:10px ;
+    font-size: 100px;
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transform: rotateZ(90deg);
+}
+footer{
+    padding: 20px;
+    background-color: steelblue;
+    text-align: center;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+.next{
+display: flex;
+    border:1px solid;
+}
+.next1{
+    display: flex;
+}
+input{
+    padding: 6px;
+    font-size: 10px;
+    border-radius: 4px;
+
+}
+input[type="checkbox"]{
+    height: 20px;
+    width: 80px;
+    margin-left: 50px;
+}
+select{
+    padding: 6px;
+    width: 150px;
+   border-radius: 4px;
+}
+label{
+    width: 200px;
+    display: inline-block;
+overflow: hidden;
+}
+span{
+    color: white;
+}
+span1{
+    color: red;
+}
+span3{
+    color: orange;
+    font-family: italis, serif;
+}
+section #showcase1{
+    display: inline-block;
+
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 30%;
+    flex: 1;
+
+}
+section #showcase6{
+    display: inline-block;
+
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 30%;
+    flex: 1;
+
+}
+section #showcase{
+    display: inline-block;
+    border:1px solid;
+padding: 10px;
+    width: 30%;
+margin-right: 10px;
+    flex: 1;
+}
+#showcase h2{
+    color: aquamarine;
+}
+#showcase1 h2{
+    color: aquamarine;
+}
+#showcase6 h2{
+    color: aquamarine;
+}
+#showcase4 h2{
+    color: aquamarine;
+}
+#showcase h2{
+    color: aquamarine;
+}
+input[type="submit"] {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: darkcyan;
+    background-color: darkslateblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 40%;
+width: 100px;
+}
+input[type="reset"]{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: darkcyan;
+    background-color: darkslateblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 0;
+    width: 100px;
+}
+button:hover{
+    background-color: #999999;
+}
+button:active{
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#Confirm{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: darkcyan;
+    background-color: darkslateblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 0;
+    width: 100px;
+}
+#Confirm1{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: darkcyan;
+    background-color: darkslateblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 25%;
+    width: 20%;
+}
+section #show{
+    display: inline-block;
+    margin-right: 10px;
+    width: 100%;
+border: 1px solid;
+    padding: 15px;
+    margin-top: 0;
+}
+section #show1{
+    display: inline-block;
+    margin-right: 10px;
+    width: 100%;
+    border: 1px solid;
+    padding: 15px;
+    margin-top: 0;
+}
+#show1 h1{
+    color: aqua;
+}
+section input{
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 4px;
+    width: 70%;
+}
+#drop{
+    width: 72%;
+    border-radius: 4px;
+    padding: 8px;
+    border: 1px solid;
+}
+#drop1{
+    border: 1px solid;
+    width: 72%;
+    border-radius: 4px;
+    padding: 8px;
+}
+#data{
+    color: aqua;
+}
+.center{
+    margin-right: auto;
+    margin-left: auto;
+}
+#Send{
+    margin-left: 50%;
+}
+#drop3{
+    border: 1px solid;
+    width: 150%;
+    border-radius: 4px;
+    padding: 8px;
+}
+#data1{
+    color: red;
+}
+#num{
+
+}
+section #showcase3{
+
+    border:1px solid;
+    padding: 0;
+    margin-right:0;
+}
+section #showcase5{
+    padding: 0;
+    margin-right:0;
+}
+section #showcase4{
+    display: inline-block;
+    padding: 10px;
+    width: 30%;
+    margin-right: 10px;
+    flex: 1;
+}
+#claim{
+    width: 20%;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 20px;
+}
+#claim1{
+    margin-left: 10%;
+}
+#num{
+    font-size: 15px;
+}
+
+
